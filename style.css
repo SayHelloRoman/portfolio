@@ -40,12 +40,13 @@ td {
 }
 
 .project {
+    background-color: #1E1F26;
+    color: white;
     margin: auto;
     padding-top: 0.5em;
     font-size: 20px;
     font-family: sans-serif;
     text-align: left;
-    background-color: white;
 }
 
 .project_title {
