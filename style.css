@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    padding-bottom: 2em;
 }
 
 a {
@@ -21,36 +20,54 @@ td {
     padding: 10px;
 }
 
-.name {
-    font-size: 45px;
-    font-family: 'Lato', sans-serif;
-}
-
 .about {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Noto Sans', sans-serif;
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .title {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: #1E1F26;
-    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 2em;
+    font-size: 5em;
     color: white;
 }
 
 .project {
-    background-color: #1E1F26;
-    color: white;
-    margin: auto;
-    padding-top: 0.5em;
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: left;
+    border-radius: 100px;
 }
 
-.project_title {
-    font-size: 45px;
-    font-family: 'Lato', sans-serif;
+#stars { 
+    background:#477ab9;
+    width:100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    }
+    #stars:hover { 
+    background:#3D689C;
+    }
+
+main {
+    position: relative;
     text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 5;
+    align-items: center; /** Y-axis align **/
+    justify-content: center; /** X-axis align **/
+}
+
+canvas {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
 }
